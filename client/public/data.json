@@ -1,0 +1,388 @@
+[
+  {
+    "genus": "Malus",
+    "name": "Apple",
+    "id": 6,
+    "family": "Rosaceae",
+    "order": "Rosales",
+    "nutritions": {
+      "carbohydrates": 11.4,
+      "protein": 0.3,
+      "fat": 0.4,
+      "calories": 52,
+      "sugar": 10.3
+    },
+    "img": "http://www.pngall.com/wp-content/uploads/2016/04/Apple-Fruit-Transparent.png"
+  },
+  {
+    "genus": "Musa",
+    "name": "Banana",
+    "id": 1,
+    "family": "Musaceae",
+    "order": "Zingiberales",
+    "img": "https://www.jaimefruitsetlegumes.ca/wp-content/uploads/2019/08/iStock_000007671231Large-e1565725651658-700x700.jpg",
+    "nutritions": {
+      "carbohydrates": 22,
+      "protein": 1,
+      "fat": 0.2,
+      "calories": 96,
+      "sugar": 17.2
+    }
+  },
+  {
+    "genus": "Fragaria",
+    "name": "Blueberry",
+    "id": 52,
+    "family": "Rosaceae",
+    "order": "Rosales",
+    "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/27400021/27400021-d6ffb0.jpg",
+
+    "nutritions": {
+      "carbohydrates": 5.5,
+      "protein": 0,
+      "fat": 0.4,
+      "calories": 29,
+      "sugar": 5.4
+    }
+  },
+  {
+    "genus": "Prunus",
+    "name": "Cherry",
+    "id": 9,
+    "family": "Rosaceae",
+    "order": "None",
+    "img": "https://fotomelia.com/wp-content/uploads/edd/2015/02/cerise.jpg",
+
+    "nutritions": {
+      "carbohydrates": 12,
+      "protein": 1,
+      "fat": 0.3,
+      "calories": 50,
+      "sugar": 8
+    }
+  },
+  {
+    "genus": "Citrus",
+    "name": "Lemon",
+    "id": 26,
+    "family": "Rutaceae",
+    "order": "Sapindales",
+    "img": "https://www.mandorleto.bio/44-large_default/organic-fresh-lemon.jpg",
+
+    "nutritions": {
+      "carbohydrates": 9,
+      "protein": 1.1,
+      "fat": 0.3,
+      "calories": 29,
+      "sugar": 2.5
+    }
+  },
+  {
+    "genus": "Mangifera",
+    "name": "Mango",
+    "id": 27,
+    "family": "Anacardiaceae",
+    "order": "Sapindales",
+    "img": "https://www.aromemarket.com/558-large_default/10-ml-arome-mangue-fa-mango-flavor-costarica-special.jpg",
+
+    "nutritions": {
+      "carbohydrates": 15,
+      "protein": 0.82,
+      "fat": 0.38,
+      "calories": 60,
+      "sugar": 13.7
+    }
+  },
+  {
+    "genus": "Citrus",
+    "name": "Orange",
+    "id": 2,
+    "family": "Rutaceae",
+    "order": "Sapindales",
+    "img": "https://1001perles.com/wp-content/uploads/2016/06/orange-web-1024x768.jpg",
+
+    "nutritions": {
+      "carbohydrates": 8.3,
+      "protein": 1,
+      "fat": 0.2,
+      "calories": 43,
+      "sugar": 8.2
+    }
+  },
+  {
+    "genus": "Pyrus",
+    "name": "Pear",
+    "id": 4,
+    "family": "Rosaceae",
+    "order": "Rosales",
+    "img": "https://i5.walmartimages.ca/images/Enlarge/799/2_r/6000196087992_R.jpg",
+
+    "nutritions": {
+      "carbohydrates": 15,
+      "protein": 0.4,
+      "fat": 0.1,
+      "calories": 57,
+      "sugar": 10
+    }
+  },
+  {
+    "genus": "Ananas",
+    "name": "Pineapple",
+    "id": 10,
+    "family": "Bromeliaceae",
+    "order": "Poales",
+    "img": "https://www.carrefour.fr/media/1500x1500/Photosite/PRODUITS_FRAIS_TRANSFORMATION/FRUITS_ET_LEGUMES/3000001033257_PHOTOSITE_20150616_083145_0.jpg?placeholder=1",
+
+    "nutritions": {
+      "carbohydrates": 13.12,
+      "protein": 0.54,
+      "fat": 0.12,
+      "calories": 50,
+      "sugar": 9.85
+    }
+  },
+  {
+    "genus": "Rubus",
+    "name": "Raspberry",
+    "id": 23,
+    "family": "Rosaceae",
+    "order": "Rosales",
+    "img": "https://cdn.shopify.com/s/files/1/2971/2126/products/Raspberry_ed3f1df5-030e-4999-ab05-732f0c679196_2000x.jpg?v=1594159460",
+
+    "nutritions": {
+      "carbohydrates": 12,
+      "protein": 1.2,
+      "fat": 0.7,
+      "calories": 53,
+      "sugar": 4.4
+    }
+  },
+  {
+    "genus": "Fragaria",
+    "name": "Strawberry",
+    "id": 3,
+    "family": "Rosaceae",
+    "order": "Rosales",
+    "img": "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/2000x2000fit/7/5/6/108756_strawberry.jpg",
+
+    "nutritions": {
+      "carbohydrates": 5.5,
+      "protein": 0.8,
+      "fat": 0.4,
+      "calories": 29,
+      "sugar": 5.4
+    }
+  },
+  {
+    "genus": "Solanum",
+    "name": "Tomato",
+    "id": 5,
+    "family": "Solanaceae",
+    "order": "Solanales",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81avkS31xRL._SL1500_.jpg",
+
+    "nutritions": {
+      "carbohydrates": 3.9,
+      "protein": 0.9,
+      "fat": 0.2,
+      "calories": 74,
+      "sugar": 2.6
+    }
+  },
+  {
+    "genus": "Citrullus",
+    "name": "Watermelon",
+    "id": 25,
+    "family": "Cucurbitaceae",
+    "order": "Cucurbitales",
+    "img": "https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/24172315/ING-watermelon.jpg",
+
+    "nutritions": {
+      "carbohydrates": 8,
+      "protein": 0.6,
+      "fat": 0.2,
+      "calories": 30,
+      "sugar": 6
+    }
+  },
+  {
+    "name": "Apricot",
+    "id": 30,
+    "img": "https://www.fruits-vaud-geneve.ch/kcfinder/upload/images/fruits/abricot.png",
+    "nutritions": {
+      "carbohydrates": 9.01,
+      "protein": 1.4,
+      "fat": 0.4,
+      "calories": 45,
+      "sugar": 9
+    }
+  },
+  {
+    "name": "Avocado",
+    "id": 31,
+    "img": "https://freepngimg.com/thumb/avocado/1-2-avocado-png-clipart.png",
+    "nutritions": {
+      "carbohydrates": 3.13,
+      "protein": 1.8,
+      "fat": 15,
+      "calories": 205,
+      "sugar": 0.7
+    }
+  },
+  {
+    "name": "Blackberries",
+    "id": 32,
+    "img": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c136.png",
+    "nutritions": {
+      "carbohydrates": 10,
+      "protein": 1.8,
+      "fat": 0.5,
+      "calories": 47,
+      "sugar": 4.9
+    }
+  },
+  {
+    "name": "Clementine",
+    "id": 33,
+    "img": "http://www.lebaudetgac.be/images/virtuemart/product/Fruits/clementine.png",
+    "nutritions": {
+      "carbohydrates": 12,
+      "protein": 0.81,
+      "fat": 0.2,
+      "calories": 47,
+      "sugar": 9.19
+    }
+  },
+  {
+    "name": "Cranberry",
+    "id": 34,
+    "img": "https://www.teisseire.com/media/1732/cranberrypng.png",
+    "nutritions": {
+      "carbohydrates": 82,
+      "protein": 0.4,
+      "fat": 0.13,
+      "calories": 46,
+      "sugar": 8.78
+    }
+  },
+  {
+    "name": "Date",
+    "id": 35,
+    "img": "https://pngimg.com/uploads/dates/dates_PNG11048.png",
+    "nutritions": {
+      "carbohydrates": 75,
+      "protein": 2.5,
+      "fat": 0.4,
+      "calories": 282,
+      "sugar": 66.47
+    }
+  },
+  {
+    "name": "Fig",
+    "id": 36,
+    "img": "http://miam-images.m.i.pic.centerblog.net/ae07037c.png",
+    "nutritions": {
+      "carbohydrates": 19,
+      "protein": 0.8,
+      "fat": 0.3,
+      "calories": 74,
+      "sugar": 16
+    }
+  },
+  {
+    "name": "Grapes",
+    "id": 37,
+    "img": "https://www.bestglycol.com/wp-content/uploads/2017/02/Grape-PNG-Picture.png",
+    "nutritions": {
+      "carbohydrates": 17,
+      "protein": 0.6,
+      "fat": 0.4,
+      "calories": 69,
+      "sugar": 16
+    }
+  },
+  {
+    "name": "Kiwi",
+    "id": 38,
+    "img": "https://www.teisseire.com/media/1739/kiwipng.png",
+    "nutritions": {
+      "carbohydrates": 15,
+      "protein": 1.1,
+      "fat": 0.5,
+      "calories": 61,
+      "sugar": 9
+    }
+  },
+  {
+    "name": "Kumquat",
+    "id": 39,
+    "img": "https://www.alexetalex.com/wp-content/uploads/2019/08/92252414_s.jpg",
+    "nutritions": {
+      "carbohydrates": 16,
+      "protein": 1.9,
+      "fat": 0.9,
+      "calories": 71,
+      "sugar": 9.4
+    }
+  },
+  {
+    "name": "Lime",
+    "id": 40,
+    "img": "https://www.asianmarket.fr/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/i/citron-vert-frais-1-piece_1.jpg",
+    "nutritions": {
+      "carbohydrates": 11,
+      "protein": 0.7,
+      "fat": 0.2,
+      "calories": 30,
+      "sugar": 1.7
+    }
+  },
+  {
+    "name": "Lychee",
+    "id": 41,
+    "img": "https://www.teisseire.com/media/1740/litchipng.png",
+    "nutritions": {
+      "carbohydrates": 17,
+      "protein": 0.8,
+      "fat": 0.4,
+      "calories": 66,
+      "sugar": 15 
+    }
+  },
+  {
+    "name": "Olive",
+    "id": 42,
+    "img": "https://sardofoods.ca/wp-content/uploads/2018/10/pitted_green_olives-square.png",
+    "nutritions": {
+      "carbohydrates": 6.3,
+      "protein": 0.8,
+      "fat": 11,
+      "calories": 115,
+      "sugar": 0.8
+    }
+  },
+  {
+    "name": "Papaya",
+    "id": 43,
+    "img": "https://www.carriere.de/files/Bilder-Erntezeiten/carriere-papaya-erntezeit.png",
+    "nutritions": {
+      "carbohydrates": 11,
+      "protein": 0.5,
+      "fat": 0.3,
+      "calories": 43,
+      "sugar": 7.8
+    }
+  },
+  {
+    "name": "Peaches",
+    "id": 44,
+    "img": "https://www.teisseire.com/media/1759/pechepng.png",
+    "nutritions": {
+      "carbohydrates": 9.5,
+      "protein": 0.9,
+      "fat": 0.3,
+      "calories": 39,
+      "sugar": 8.4
+    }
+  }
+]

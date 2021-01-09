@@ -1,0 +1,76 @@
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5em;
+}
+
+.list-of-members {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.list-of-members .link-list {
+  list-style: none;
+}
+
+.list-of-members .link-list a .fab {
+  font-size: 2.6rem;
+  color: black;
+  line-height: 1.3em;
+  transition: 0.5s;
+  padding-right: 0.5em;
+}
+
+.list-of-members .link-list a span {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 1em;
+  color: #262626;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+
+.list-of-members .link-list a {
+  text-decoration: none;
+  display: block;
+  width: 13em;
+  background: #fff;
+  text-align: left;
+  padding-left: 1em;
+  margin-left: 4em;
+  transform: rotate(0deg) skew(0deg) translate(0, 0);
+  transition: 0.5s;
+  box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.5);
+}
+
+.list-of-members .link-list a:hover {
+  box-shadow: -10px 10px 10px rgba(255, 166, 0, 0.664);
+  background: rgb(116, 116, 116);
+}
+
+.list-of-members .link-list:hover .fab {
+  color: #fff;
+}
+
+.list-of-members .link-list:hover span {
+  color: #fff;
+}
+
+@media screen and (max-width: 380px) {
+  /* .list-of-members {
+    flex-direction: column;
+  }
+  .list-of-members .link-list {
+    margin-top: 1em;
+  }
+  .list-of-members .link-list a {
+    margin-left: 0;
+    box-shadow: -5px 10px 5px rgba(0, 0, 0, 0.5);
+  } */
+}

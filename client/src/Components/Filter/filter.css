@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+
+.filter {
+  width: 60%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+}
+
+.filter .sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  /* box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2); */
+}
+
+.filter .sort img {
+  width: auto;
+  height: 4em;
+}
+
+.filter .sort h1 {
+  margin-left: 2em;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.inputFilter {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 0.6em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 3em;
+  width: 3em;
+  transition: all 0.15s ease-out 0s;
+  background: #e1e7f0;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+.option-input:hover {
+  background: #9faab7;
+}
+.option-input:checked {
+  background: #43951d;
+}
+.option-input:checked::before {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  content: "✔";
+  display: inline-block;
+  font-size: 26.66667px;
+  text-align: center;
+  line-height: 40px;
+}
+.option-input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: orange;
+  content: "";
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+.option-input.radio {
+  border-radius: 50%;
+}
+.option-input.radio::after {
+  border-radius: 50%;
+}
+
+label {
+  display: block;
+  font-size: 2rem;
+}
+
+@keyframes click-wave {
+  0% {
+    height: 40px;
+    width: 40px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    height: 200px;
+    width: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .filter {
+    height: 8em;
+  }
+  .filter .sort img {
+    width: 15%;
+    height: 3em;
+  }
+  .filter .sort h1 {
+    margin-left: 1em;
+    font-size: 1.2rem;
+  }
+  .inputFilter {
+    /* width: 88%; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  label {
+    font-size: 1.2rem;
+  }
+  .option-input {
+    height: 2em;
+    width: 2em;
+    margin-right: 0.2em;
+    top: 0.5em;
+  }
+  .option-input:checked::before {
+    line-height: 1em;
+    width: 1em;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 1100px) {
+  .filter {
+    height: 8em;
+  }
+  .filter .sort img {
+    width: 15%;
+    height: 3em;
+  }
+  .filter .sort h1 {
+    margin-left: 1em;
+    font-size: 1.2rem;
+  }
+  .inputFilter {
+    /* width: 88%; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  label {
+    font-size: 1.2rem;
+  }
+  .option-input {
+    height: 2em;
+    width: 2em;
+    margin-right: 0.2em;
+    top: 0.5em;
+  }
+  .option-input:checked::before {
+    line-height: 1em;
+    width: 1em;
+  }
+}

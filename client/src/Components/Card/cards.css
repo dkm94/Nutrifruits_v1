@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+
+:root {
+  --spacing-l: 2em;
+  --width-container: 85em;
+}
+.card-grid {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: var(--spacing-l);
+  grid-row-gap: var(--spacing-l);
+  max-width: var(--width-container);
+  width: 100%;
+  margin-top: 5em; */
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 12rem);
+  grid-column-gap: var(--spacing-l);
+  grid-row-gap: var(--spacing-l);
+  max-width: var(--width-container);
+  width: 90%;
+  margin-top: 5em;
+}
+
+.card-grid .card {
+  height: 17em;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0;
+  transform: scale(0.95);
+  transition: box-shadow 0.5s, transform 0.5s;
+  border: 5px solid #e5e5e5;
+}
+.card-grid .card:hover {
+  transform: scale(1.05) translateZ(0);
+  box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+/* .card-grid:hover > .card:not(:hover) {
+    filter: brightness(0.8) saturate(0) contrast(1) blur(5px);
+  } */
+.card-grid .card .container {
+  width: 100%;
+  height: 100%;
+}
+.card-grid .card .container .top {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-grid .card .container .top img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-grid .card .container .bottom {
+  width: 100%;
+  height: 20%;
+  transition: transform 0.5s;
+  border-top: 1px solid orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-grid .card .container .bottom h1 {
+  font-family: "Salsa", cursive;
+  color: #397e19;
+  padding: 0;
+  margin: 0;
+  font-size: 1.9rem;
+  line-height: 1.4;
+}
+
+.card-grid .card .container .bottom .details {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-grid .card .inside {
+  z-index: 9;
+  background: #9d9d9dd6;
+  width: 8.6em;
+  height: 8.6em;
+  position: absolute;
+  top: -70px;
+  right: -70px;
+  border-radius: 33%;
+  transition: all 0.5s, border-radius 2s, top 1s;
+  overflow: hidden;
+}
+.card-grid .card .inside .icon {
+  position: absolute;
+  right: 4.2em;
+  top: 4.2em;
+  color: white;
+  opacity: 1;
+  font-size: larger;
+}
+.card-grid .card .inside:hover {
+  width: 100%;
+  right: 0;
+  top: 0;
+  border-radius: 0;
+  height: 80%;
+}
+.card-grid .card .inside:hover .icon {
+  opacity: 0;
+  right: 15px;
+  top: 15px;
+}
+.card-grid .card .inside:hover .contents {
+  opacity: 1;
+  transform: scale(1);
+  transform: translateY(0);
+}
+.card-grid .card .inside .contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+  opacity: 0;
+  transform: scale(0.5);
+  transform: translateY(-100%);
+  transition: opacity 0.2s, transform 0.8s;
+}
+
+.card-grid .card .inside .contents p span {
+  color: white;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fa,
+.fas {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+@media screen and (max-width: 380px) {
+  /* .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-grid .card {
+    height: 20em; 
+  }*/
+}
+@media screen and (min-width: 380px) and (max-width: 1100px) {
+  /* .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card-grid .card {
+    height: 20em;
+  } */
+}
