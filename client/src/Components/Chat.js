@@ -90,7 +90,7 @@ const Chat = ({ location }) => {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
   // const ENDPOINT = 'http://localhost:3030';
-  const ENDPOINT = "https://nutrifruitsdemo.herokuapp.com/";
+  const ENDPOINT = "https://nutrifruits.netlify.app/";
 
   useEffect(
     () => {
